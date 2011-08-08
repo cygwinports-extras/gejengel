@@ -1,0 +1,10 @@
+inherit gnome2
+
+
+HOMEPAGE="http://code.google.com/p/gejengel/"
+SRC_URI="http://gejengel.googlecode.com/files/${P}.tar.gz"
+
+PATCH_URI="0.1.4-libnotify07.patch
+           0.1.4-remove-libxdg-basedir-dep.patch"
+
+CPPFLAGS+=" -D__timezonefunc__"
