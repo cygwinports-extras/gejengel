@@ -1,0 +1,20 @@
+inherit gnome2
+
+NAME="gejengel"
+VERSION=0.1.4
+RELEASE=4
+CATEGORY="Audio"
+SUMMARY="GTK+ audio player"
+DESCRIPTION="Gejengel is an audio player which focuses on performance and
+simplicity, yet with a nice set of features."
+HOMEPAGE="http://code.google.com/p/gejengel/"
+SRC_URI="http://gejengel.googlecode.com/files/${P}.tar.gz"
+
+PATCH_URI="
+	mirror://portage/media-sound/gejengel/files/gejengel-0.1.4-ffmpeg.patch
+	mirror://portage/media-sound/gejengel/files/gejengel-0.1.4-ffmpeg-1.patch
+	mirror://portage/media-sound/gejengel/files/gejengel-0.1.4-libnotify-0.7.patch
+	0.1.4-remove-libxdg-basedir-dep.patch
+"
+
+CPPFLAGS+=" -D__timezonefunc__"

@@ -1,5 +1,0 @@
-category: Audio
-requires: libatkmm1.6_1 libavcodec53 libavformat53 libavutil51 libcairomm1.0_1 libdbus-glib_1_2 libFLAC++6 libFLAC8 libgcc1 libglib2.0_0 libglibmm2.4_1 libgtk2.0_0 libgtkmm2.4_1 libMagickCore5 libintl8 liblastfmlib1 libmad0 libnotify4 libopenal1 libpangomm1.4_1 libpulse0 libsigc2.0_0 libsqlite3_0 libstdc++6 libtag1
-sdesc: "GTK+ audio player"
-ldesc: "Gejengel is an audio player which focuses on performance and 
-simplicity, yet with a nice set of features."
