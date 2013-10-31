@@ -1,0 +1,11 @@
+--- origsrc/gejengel-0.1.4/configure.ac	2013-10-31 15:16:50.884108200 -0500
++++ src/gejengel-0.1.4/configure.ac	2013-10-31 15:23:10.069796400 -0500
+@@ -233,7 +233,7 @@ if test "$ENABLE_LOGGING" = "yes"; then
+ fi
+ AM_CONDITIONAL(ENABLE_LOGGING, test "$enable_logging" = "yes")
+ 
+-CXXFLAGS="-D__STDC_CONSTANT_MACROS"
++CXXFLAGS="$CXXFLAGS -D__STDC_CONSTANT_MACROS"
+ 
+ ########################################################################
+ # Debug
