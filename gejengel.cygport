@@ -2,7 +2,7 @@ inherit gnome2
 
 NAME="gejengel"
 VERSION=0.1.4
-RELEASE=5
+RELEASE=6
 CATEGORY="Audio"
 SUMMARY="GTK+ audio player"
 DESCRIPTION="Gejengel is an audio player which focuses on performance and
