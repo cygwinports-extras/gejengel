@@ -2,7 +2,7 @@ inherit gnome2
 
 NAME="gejengel"
 VERSION=0.1.4
-RELEASE=6
+RELEASE=7
 CATEGORY="Audio"
 SUMMARY="GTK+ audio player"
 DESCRIPTION="Gejengel is an audio player which focuses on performance and
@@ -14,6 +14,8 @@ PATCH_URI="
 	mirror://portage/media-sound/gejengel/files/gejengel-0.1.4-ffmpeg.patch
 	mirror://portage/media-sound/gejengel/files/gejengel-0.1.4-ffmpeg-1.patch
 	mirror://portage/media-sound/gejengel/files/gejengel-0.1.4-libnotify-0.7.patch
+	mirror://portage/media-sound/gejengel/files/gejengel-0.1.4-libav9.patch
+	mirror://portage/media-sound/gejengel/files/gejengel-0.1.4-ffmpeg2.patch
 	0.1.4-cxxflags.patch
 	0.1.4-remove-libxdg-basedir-dep.patch
 "
